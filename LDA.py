@@ -3,8 +3,6 @@
 # 转化为广义瑞利商的优化问题，从而用拉格朗日方法求解
 # 最终的投影直线的方向向量为Sw-1*(mean1-mean2),其中Sw为两个类别各自协方差矩阵的和
 # 下面的代码解决的是一个简单的二分类问题
-import numpy as np
-import csv
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties  # 字体管理器
 
